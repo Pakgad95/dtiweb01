@@ -1,0 +1,32 @@
+.wow{
+    color: rgb(97, 82, 82);
+    display: block;
+    text-align: center;
+    font-size: 42px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin:  auto;
+
+}
+span {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}

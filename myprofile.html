@@ -8,6 +8,16 @@
     <meta name="autor" content="คนสวย">
     <title>beautyful all the time</title>
     <link rel="stylesheet icon" href="./image/favicon.png" type="image/png">
+    <style>
+        h1 {
+            color: #ff69b4;
+            font-family: 'Arial', sans-serif;
+            font-size: 42px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
     <div>
@@ -15,18 +25,29 @@
     </div>
     <div>
         <h1>สวัสดีค่ะ</h1>
-        <p>ยินดีต้อนรับสู่เว็บส่วนตัวของคนสวย</p>
-        <span>
+        <p class="wow">ยินดีต้อนรับสู่เว็บส่วนตัวของคนสวย</p>
+        <span >
             webdeveloper, designer, and content creator
         </span>
     </div>
+    <hr/>
     <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a culpa soluta aliquid laboriosam inventore itaque cum autem voluptates magnam ipsam quasi, at exercitationem distinctio blanditiis officia dolorem commodi alias.</p>
+        <p class="wow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a culpa soluta aliquid laboriosam inventore itaque cum autem voluptates magnam ipsam quasi, at exercitationem distinctio blanditiis officia dolorem commodi alias.</p>
     </div>
     <hr />
-    <button>
+    <button onclick="handleClick()">
          ได้โปรดกดฉัน
     </button>
+    <hr>
+    <button onclick="handle2Click()">
+        ได้โปรดกดฉันอีกครั้ง
+    </button>
+    <script>
+        function handle2Click() {
+            alert("ขอบคุณที่กดฉันค่ะ awwwwwwwwwwwwwwwwwwwwwwwwwwwww yessssssssssssssssssss");
+        }
+    </script>
+    <script src="./js/script.js"></script>
     
 </body>
 </html>
